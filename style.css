@@ -1,0 +1,108 @@
+/* Center the box on the page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4; /* Optional background color for the page */
+  }
+  
+  /* Style the box */
+  .centered-box {
+    max-width: 600px; /* Set the desired width of the box */
+    width: 100%; /* Allow the box to be responsive */
+    padding: 20px;
+    background-color: lightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center; /* Center the text inside the box */
+  }
+
+  /* Spacing for elements inside the box */
+.centered-box h1 {
+    margin-bottom: 20px; /* Space below the heading */
+  }
+  
+  .centered-box p {
+    margin-bottom: 20px; /* Space between display section and button */
+  }
+  
+  .centered-box button {
+    padding: 10px 20px; /* Adjust button padding */
+    font-size: 1rem;
+  }
+
+
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Main content styling */
+  main {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Joke display styling */
+  #jokeDisplay {
+    font-size: 1.2rem;
+    margin-top: 20px;
+    color: #444;
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #777;
+  }
