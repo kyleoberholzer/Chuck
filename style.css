@@ -106,3 +106,30 @@ body {
     font-size: 0.9rem;
     color: #777;
   }
+
+  /* Style specifically for the dropdown */
+#categorySelect {
+    width: 100%; /* Make dropdown take full width of its own element */
+    padding: 10px; /* Add padding for space inside */
+    font-size: 1rem; /* Set font size for readability */
+    border: 1px solid #ddd; /* Light border for the dropdown */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #dcdcdc; /* Light background color */
+    color: #333; /* Text color */
+    cursor: pointer; /* Cursor changes to pointer on hover */
+    transition: all 0.3s ease; /* Smooth transition for styling */
+    margin-bottom: 20px
+  }
+  
+  /* Change background and border on hover */
+  #categorySelect:hover {
+    background-color: #acacac; /* Slightly darker background on hover */
+    border-color: #bbb; /* Darker border on hover */
+  }
+  
+  /* Styling for dropdown focus (when clicked) */
+  #categorySelect:focus {
+    outline: none; /* Remove default focus outline */
+    border-color: #333; /* Highlighted border on focus */
+    background-color: #fff; /* White background on focus */
+  }
